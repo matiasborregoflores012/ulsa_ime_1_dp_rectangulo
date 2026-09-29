@@ -7,12 +7,22 @@
 // ¿por qué debe existir la función main()?
 int main() {
     // 1. Variables (siempre inicializadas)
-    //    TODO: ¿qué variables necesitas? ¿De qué tipo? ¿Con qué valor empiezan?
+std::cout << "Area y perimetro de un rectangulo\n";
+//    TODO: ¿qué variables necesitas? ¿De qué tipo? ¿Con qué valor empiezan?
 
-    std::cout << "Area y perimetro de un rectangulo\n";
-
+    double base;
+    double altura;
+    double multiplicar = 0.0;
+    double suma = 0.0;
     // 2. Entrada: el ancho
+        std:: cout << "dame tu base y altura XD"; 
+
+
+
     //    TODO: lee el ancho con leerDecimal("...")
+
+
+
     //    TODO: ¿qué haces si es 0 o negativo? ¿Cuántas veces lo vuelves a pedir?
 
     // 3. Entrada: el alto
