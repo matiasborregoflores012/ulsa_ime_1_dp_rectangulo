@@ -7,4 +7,7 @@
 ``` text
 1. MOSTRAR "Bienvenido a mi programa de rectangulo"
 
-```
+2. preguntar datos como area y altura
+3. sacar el perimetro sumando todos los lados
+4. sacar el area multiplicando(b)(h)
+5. imprimir la salida diciendo cuanto vale el perimetro y la base
