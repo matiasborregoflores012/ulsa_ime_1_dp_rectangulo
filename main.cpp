@@ -1,5 +1,6 @@
 // ¿Recuerdas qué hace iostream?
 #include <iostream>
+using namespace std;
 
 // ¿Por qué este include usa comillas y no < >?
 #include "utilerias.h"
@@ -15,7 +16,18 @@ std::cout << "Area y perimetro de un rectangulo\n";
     double multiplicar = 0.0;
     double suma = 0.0;
     // 2. Entrada: el ancho
-        std:: cout << "dame tu base y altura XD"; 
+        std:: cout << "ingresa base";
+        std:: cin >> base;
+        std:: cout << "introduce altura";
+        std:: cin >> altura;
+
+        suma = base + base + altura + altura;
+        multiplicar = base * altura;
+
+        std:: cout << "El perímetro es: " << suma << endl;
+   std::cout << "El área es: " << multiplicar << endl;
+
+    
 
 
 
